@@ -11,6 +11,28 @@
 </head>
 <body>
    <script src="main.js"></script> 
-
+    <div class="container">
+        <a href="" id="link" download="selfie"></a>
+        <h1>
+            app selfie por voz
+            <img src="selfie.jpg" alt="selfie" id="logo_img">
+        </h1>
+        <hr>
+        <h4 style="color:  darkslateblue;">Precione permitir assim que o pop-up for exibido depois depois de dar um comando de voz</h4>
+        <div class="form-group">
+            <h3>Diga "selfie"</h3>
+            <label>sua saida de voz:</label>
+            <textarea class="form-contro1" id="textbox" readonly="true"></textarea>
+        </div>
+        <button class="btn-primary" onclick="start()">iniciar</button>
+        <p>precione o botao iniciar</p>
+        <label>sua webcan:</label>
+        <div id="camera"></div>
+        <br>
+        <label>sua selfie sera exibida aqui: </label>
+        <div id="result"></div>
+    </div>
+    <script src="main.js"></script>
+    
 </body>
 </html>
